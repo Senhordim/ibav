@@ -1,0 +1,5 @@
+<% @posts.each do |post| %>
+    <h1><%= link_to post.title, post %></h1>
+    <h2><%= link_to  post.summary, post %></h2>
+		<p><%= link_to "delete", post, confirm: 'Are you sure?', method: :delete %></p>
+<% end %>
