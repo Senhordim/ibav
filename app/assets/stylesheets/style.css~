@@ -6,14 +6,56 @@
 body{
 	font:normal 13px/1 sans-serif;
 	color:#313131;
+	background:#F5F5F0
+
 }
 
-heder.main{
+header.main{
 	margin: 0 auto;
 	width:978px;
+	height:120px;
+	background:url(/assets/bg_header.png)no-repeat center bottom;
 }
 
 .page{
 	margin: 0 auto;
 	width: 978px;
+
+}
+
+section.post{
+	width:600px;
+	background:#fff;
+	padding:12px;
+	margin-bottom:30px;
+	-moz-box-shadow: 2px 2px 2px #888;
+	-webkit-box-shadow: 2px 2px 2px #888;
+	box-shadow: 2px 2px 2px #888;
+border-radius:4px;
+}
+
+section.post:hover{
+
+}
+section.post h1 a{
+	font: bold 45px/1 sans-serif;
+	text-decoration:none;
+	color:#313131;
+	margin-bottom:20px;
+}
+
+section.post h2 a{
+	font: bold 23px/1.1 sans-serif;
+	color:#38678B;
+	text-decoration:none;
+}
+
+
+.leia-mais a{
+	color:#fff;
+	text-decoration:none;
+	background:#e02843;
+	padding:8px;
+	float:right;
+	font: bold 12px/1 sans-serif;
 }

@@ -1,22 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Title:</b>
-  <%= @post.title %>
-</p>
+<h1><%= @post.title %></h1>
 
-<p>
-  <b>Summary:</b>
-  <%= @post.summary %>
-</p>
-
-<p>
-  <b>Body:</b>
-  <%= @post.body %>
-</p>
-
-<div class="modinteracao autostart:false"><span class="titleBar">Compartilhe esta foto</span><ul><li class="email first"><a class="button"></a></li><li class="googleplus count"><div style="height: 20px; width: 90px; display: inline-block; text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; background-position: initial initial; background-repeat: initial initial; " id="___plusone_0"><iframe allowtransparency="true" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px; " tabindex="0" vspace="0" width="100%" id="I0_1345323983981" name="I0_1345323983981" src="https://plusone.google.com/_/+1/fastbutton?bsv=pr&amp;size=medium&amp;annotation=bubble&amp;hl=en-US&amp;origin=http%3A%2F%2Fnoticias.uol.com.br&amp;url=http%3A%2F%2Fnoticias.uol.com.br%2Falbum%2F2012%2F08%2F18%2Fcracolandia-no-rio-de-janeiro.htm%3Fabrefoto%3D1%26cpmid%3Dcgp-noticias-album&amp;count=true&amp;ic=1&amp;jsh=m%3B%2F_%2Fapps-static%2F_%2Fjs%2Fgapi%2F__features__%2Frt%3Dj%2Fver%3DCWkQliCeB6U.pt_BR.%2Fsv%3D1%2Fam%3D!YLz4zcRjznaA2Lb5GQ%2Fd%3D1%2Frs%3DAItRSTNL6PJB5cJDZ6vR7wPiNao58_pJ6Q#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Conload&amp;id=I0_1345323983981&amp;parent=http%3A%2F%2Fnoticias.uol.com.br" title="+1"></iframe></div></li><li class="twitter widget"><iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.1345016233.html#_=1345323987140&amp;count=horizontal&amp;id=twitter-widget-0&amp;lang=pt&amp;original_referer=http%3A%2F%2Fnoticias.uol.com.br%2Falbum%2F2012%2F08%2F18%2Fcracolandia-no-rio-de-janeiro.htm%3Fabrefoto%3D1&amp;related=UOLHomepage&amp;size=m&amp;text=''Cracol%C3%A2ndia''%20no%20Rio%3A%20traficantes%20dizem%20evitar%20vender%20crack%20por%20''desestabilizar%20comunidade''&amp;url=http%3A%2F%2Fnoticias.uol.com.br%2Falbum%2F2012%2F08%2F18%2Fcracolandia-no-rio-de-janeiro.htm%3Fabrefoto%3D1%26cpmid%3Dctw-noticias-album&amp;via=UOLNoticias%20%23UOL" class="twitter-share-button twitter-count-horizontal" style="width: 120px; height: 20px; " title="Twitter Tweet Button"></iframe></li><li class="facebook last widget"><fb:like href="http://noticias.uol.com.br/album/2012/08/18/cracolandia-no-rio-de-janeiro.htm?abrefoto=1&amp;cpmid=cfb-noticias-album" send="false" width="150" show_faces="false" action="recommend" layout="button_count" font="arial" class=" fb_edge_widget_with_comment fb_iframe_widget"><span style="height: 20px; width: 150px; "><iframe id="f1cb066e8" name="f3ec20e964" scrolling="no" style="border: none; overflow: hidden; height: 20px; width: 150px; " title="Like this content on Facebook." class="fb_ltr " src="http://www.facebook.com/plugins/like.php?action=recommend&amp;channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D10%23cb%3Df2db6d38f%26origin%3Dhttp%253A%252F%252Fnoticias.uol.com.br%252Ff18c6b91e8%26domain%3Dnoticias.uol.com.br%26relation%3Dparent.parent&amp;extended_social_context=false&amp;font=arial&amp;href=http%3A%2F%2Fnoticias.uol.com.br%2Falbum%2F2012%2F08%2F18%2Fcracolandia-no-rio-de-janeiro.htm%3Fabrefoto%3D1%26cpmid%3Dcfb-noticias-album&amp;layout=button_count&amp;locale=pt_BR&amp;node_type=link&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=150"></iframe></span></fb:like></li></ul></div>
-
+<p><%= @post.body %></p>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>
