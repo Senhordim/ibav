@@ -28,14 +28,14 @@ section.post{
 	background:#fff;
 	padding:12px;
 	margin-bottom:30px;
-	-moz-box-shadow: 2px 2px 2px #888;
-	-webkit-box-shadow: 2px 2px 2px #888;
-	box-shadow: 2px 2px 2px #888;
-border-radius:4px;
+
 }
 
 section.post:hover{
-
+-moz-box-shadow: 2px 2px 2px #888;
+	-webkit-box-shadow: 2px 2px 2px #888;
+	box-shadow: 2px 2px 2px #888;
+border-radius:4px;
 }
 section.post h1 a{
 	font: bold 45px/1 sans-serif;
